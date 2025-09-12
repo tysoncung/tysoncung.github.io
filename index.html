@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tyson Cung - Cloud & Data Solutions Lead, Full-Stack Developer, DevOps Enthusiast">
+    <meta name="keywords" content="Tyson Cung, Cloud Architecture, Data Engineering, DevOps, Full-Stack Development">
+    <meta name="author" content="Tyson Cung">
+    
+    <title>Tyson Cung - Cloud & Data Solutions Lead</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">TC</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Tyson Cung</span>
+                    </h1>
+                    <div class="typing-text">
+                        <span id="typed"></span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate about building scalable, efficient, and innovative solutions. 
+                        With expertise spanning cloud architecture, data engineering, and full-stack development, 
+                        I thrive on transforming complex challenges into elegant solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/tysoncung" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:tyson.cung@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tysoncung" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="hero-image-wrapper">
+                        <div class="code-window">
+                            <div class="code-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <pre class="code-content"><code class="language-javascript">const developer = {
+  name: "Tyson Cung",
+  role: "Cloud & Data Solutions Lead",
+  skills: ["AWS", "Azure", "Python", "JavaScript"],
+  passion: "Building scalable solutions",
+  focus: ["Cloud Architecture", "DevOps", "Security"]
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="gradient-bg"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Cloud & Data Solutions Lead</h3>
+                    <p>
+                        I'm a seasoned technology professional specializing in cloud architecture, 
+                        data engineering, and full-stack development. With a strong foundation in 
+                        both traditional and modern technologies, I excel at designing and implementing 
+                        enterprise-grade solutions.
+                    </p>
+                    <p>
+                        My approach combines technical expertise with strategic thinking to deliver 
+                        solutions that not only meet immediate needs but also scale for future growth.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-cloud"></i>
+                            <div>
+                                <h4>Cloud Native</h4>
+                                <p>Expert in AWS, Azure, and cloud-native architectures</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Security Focused</h4>
+                                <p>Implementing Essential Eight and security best practices</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>Automation First</h4>
+                                <p>DevOps, CI/CD, and Infrastructure as Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-code-branch"></i>
+                            <h3 id="repoCount">50+</h3>
+                            <p>Repositories</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-star"></i>
+                            <h3 id="starCount">100+</h3>
+                            <p>GitHub Stars</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <h3 id="followerCount">50+</h3>
+                            <p>Followers</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-code"></i>
+                            <h3>10+</h3>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            
+            <div class="skills-categories">
+                <!-- Languages -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Ruby</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Jenkins</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">DynamoDB</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Rails</span>
+                        <span class="skill-tag">Prisma</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Essential Eight Checklist -->
+                <div class="project-card" data-category="security" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/essential-eight.png" alt="Essential Eight Checklist">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/essential-eight-checklist" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Essential Eight Checklist</h3>
+                        <p>Comprehensive implementation toolkit for ACSC Essential Eight Maturity Model with ML1-ML3 compliance checklists.</p>
+                        <div class="project-tech">
+                            <span>PowerShell</span>
+                            <span>Python</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awesome DevOps Tools -->
+                <div class="project-card" data-category="devops" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/devops-tools.png" alt="Awesome DevOps Tools">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/awesome-devops-tools" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Awesome DevOps Tools</h3>
+                        <p>Curated collection of 400+ DevOps tools across the entire lifecycle from planning to monitoring.</p>
+                        <div class="project-tech">
+                            <span>DevOps</span>
+                            <span>CI/CD</span>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Stacks -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/ai-stacks.png" alt="AI Stacks">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/ai-stacks" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Stacks</h3>
+                        <p>Comprehensive AI tools and resources repository with 150+ categorized tools for AI/ML development.</p>
+                        <div class="project-tech">
+                            <span>AI/ML</span>
+                            <span>Python</span>
+                            <span>Tools</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Crypto Chart Patterns -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="images/crypto-patterns.png" alt="Crypto Chart Patterns">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/crypto-chart-patterns" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Crypto Chart Patterns</h3>
+                        <p>Pattern detection algorithms for cryptocurrency technical analysis using Python and machine learning.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Data Science</span>
+                            <span>Trading</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awesome Node.js Tools -->
+                <div class="project-card" data-category="tools" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="images/nodejs-tools.png" alt="Awesome Node.js Tools">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/awesome-nodejs-tools" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Awesome Node.js Tools</h3>
+                        <p>Ranked collection of Node.js packages with automated metrics updates and comprehensive categorization.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>JavaScript</span>
+                            <span>NPM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MongoDB Prisma Demo -->
+                <div class="project-card" data-category="tools" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="images/mongodb-prisma.png" alt="MongoDB Prisma Demo">
+                        <div class="project-overlay">
+                            <a href="https://github.com/tysoncung/mongodb-prisma-demo" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MongoDB Prisma Demo</h3>
+                        <p>Full-stack demonstration with Prisma ORM, migrations, seeding, and CI/CD pipeline implementation.</p>
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Prisma</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more" data-aos="fade-up">
+                <a href="https://github.com/tysoncung?tab=repositories" target="_blank" class="btn btn-outline">
+                    View All Projects <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience & Expertise</h2>
+            
+            <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Cloud Architecture</h3>
+                        <p>Designing and implementing scalable cloud solutions on AWS and Azure, with focus on cost optimization and security.</p>
+                        <ul>
+                            <li>Multi-cloud strategy development</li>
+                            <li>Serverless architecture design</li>
+                            <li>Cloud migration planning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Data Engineering</h3>
+                        <p>Building robust data pipelines and analytics platforms for enterprise-scale data processing.</p>
+                        <ul>
+                            <li>ETL/ELT pipeline development</li>
+                            <li>Real-time data streaming</li>
+                            <li>Data warehouse design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Security & Compliance</h3>
+                        <p>Implementing security best practices and compliance frameworks for critical infrastructure.</p>
+                        <ul>
+                            <li>Essential Eight implementation</li>
+                            <li>Security automation</li>
+                            <li>Compliance monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>DevOps & Automation</h3>
+                        <p>Streamlining development workflows with modern DevOps practices and automation tools.</p>
+                        <ul>
+                            <li>CI/CD pipeline design</li>
+                            <li>Infrastructure as Code</li>
+                            <li>Container orchestration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="github-stats" class="github-stats">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">GitHub Activity</h2>
+            
+            <div class="stats-container">
+                <div class="github-calendar" data-aos="fade-up">
+                    <!-- GitHub Contribution Calendar will be inserted here -->
+                    <img src="https://ghchart.rshah.org/409ba5/tysoncung" alt="GitHub Contributions" />
+                </div>
+                
+                <div class="github-widgets" data-aos="fade-up">
+                    <img src="https://github-readme-stats.vercel.app/api?username=tysoncung&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=tysoncung&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:tyson.cung@gmail.com">tyson.cung@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/tysoncung" target="_blank">github.com/tysoncung</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <a href="https://tysoncung.github.io">tysoncung.github.io</a>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/tysoncung" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:tyson.cung@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tysoncung" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Tyson Cung. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
